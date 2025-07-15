@@ -240,7 +240,7 @@ function PlayState:render()
   
   if self.paused then
     love.graphics.setFont(gFonts['large'])
-    love.graphics.printf("PAUSED", 0, gameHeight / 2 - 16, gameWidth, 'center')
+    love.graphics.printf("Pausado", 0, gameHeight / 2 - 16, gameWidth, 'center')
   end
 end
 
